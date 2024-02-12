@@ -11,7 +11,7 @@ import { Dribbble, Linkedin } from "lucide-react";
 const Footer = () => {
   return (
     <footer className=" min-h-[60vh] mt-32 ">
-      <div className=" flex h-full items-center justify-center">
+      <div className="flex h-full items-center justify-center">
         <div className="flex flex-col  items-center gap-y-10 text-center">
           <h1 className="text-3xl lg:text-4xl text-center">
             A Price to Suit Everyone
@@ -30,10 +30,17 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between flex-wrap mt-36 p-5 md:p-0 items-center">
+      <div className="flex justify-between mt-20 flex-wrap gap-16 items-center">
         <p className="text-muted-foreground text-sm"> &copy;2024 Krishna</p>
-        <p className="text-muted-foreground hidden lg:block text-sm">SPYVPN</p>
-        <Button size={"sm"} variant={"outline"}>
+        <Link href={"/"} className="text-xl font-extrabold">
+          <p>
+            SPY
+            <span className="bg-clip-text text-transparent bg-gradient-to-bl from-sky-500 via-orange-500 to-purple-500">
+              VPN
+            </span>
+          </p>
+        </Link>{" "}
+        <Button size={"sm"} className="w-fit" variant={"outline"}>
           Purchase now
         </Button>
       </div>
