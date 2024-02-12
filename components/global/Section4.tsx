@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const Section3 = () => {
+const Section4 = () => {
   return (
     <div className="flex justify-center items-center mt-36 lg:mt-52 lg:justify-between">
       <div className=" hidden lg:block">
@@ -24,4 +24,4 @@ const Section3 = () => {
   );
 };
 
-export default Section3;
+export default Section4;

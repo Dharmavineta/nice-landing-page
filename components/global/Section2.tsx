@@ -3,7 +3,7 @@ import React from "react";
 
 const Section2 = () => {
   return (
-    <section className="flex justify-center lg:justify-between mt-64">
+    <section className="flex justify-center lg:justify-between mt-36 lg:mt-64">
       <div className="flex flex-col gap-y-6 lg:w-1/2 items-center lg:items-start">
         <h1 className="text-3xl lg:text-4xl">Light, Fast & Powerful</h1>
         <p className="max-w-prose text-sky-700 text-sm text-center lg:text-start">
