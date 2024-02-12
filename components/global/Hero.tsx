@@ -4,15 +4,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <section className="flex justify-center items-center lg:justify-between mt-36 max-w-[1440px] ">
-      <div className="w-[1000px] hidden lg:block h-[1000px] absolute -right-96">
-        <Image
-          className="absolute  opacity-60  top-32 right-0 -z-10"
-          alt=""
-          src={"/blob.svg"}
-          fill
-        />
-      </div>
+    <section className="flex justify-center w-full items-center lg:justify-between mt-20 lg:mt-36 max-w-[1440px] overflow-hidden">
       <div className="flex flex-col items-center gap-y-6 lg:items-start">
         <h1 className="text-3xl max-w-lg text-center lg:text-start lg:text-5xl text-sky-950 font-semibold ">
           Introduce Your Product Quickly & Effectively
@@ -34,6 +26,14 @@ const Hero = () => {
         </div>
       </div>
       <div className="lg:block relative hidden">
+        <div className=" overflow-hidden w-[500px] h-[500px] absolute">
+          <Image
+            className="absolute hidden lg:block overflow-hidden opacity-60 -z-10 -right-40 top-0"
+            alt=""
+            src={"/blob.svg"}
+            fill
+          />
+        </div>
         <Image src={"/19.png"} alt="" height={400} width={400} />
       </div>
     </section>

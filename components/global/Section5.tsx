@@ -1,11 +1,11 @@
 import Image from "next/image";
 import React from "react";
 
-const Section4 = () => {
+const Section5 = () => {
   return (
     <div className="flex flex-col gap-y-10 lg:gap-y-0 lg:flex-row justify-center items-center mt-36 lg:mt-52 lg:justify-between">
       <div className="block">
-        <Image src={"/mobile.png"} alt="" height={400} width={400} />
+        <Image src={"/leg.png"} alt="" height={400} width={400} />
       </div>
       <div className="flex flex-col items-center gap-y-6 lg:items-start">
         <h1 className="text-3xl lg:text-4xl">Light, Fast & Powerful</h1>
@@ -24,4 +24,4 @@ const Section4 = () => {
   );
 };
 
-export default Section4;
+export default Section5;
