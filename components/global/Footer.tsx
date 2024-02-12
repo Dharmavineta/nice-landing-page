@@ -30,17 +30,16 @@ const Footer = () => {
           </div>
         </div>
       </div>
-      <div className="flex justify-between mt-36">
-        <p className="text-muted-foreground text-sm">
-          {" "}
-          &copy;2024 Krishna bharadwaj
-        </p>
-        <p className="text-muted-foreground text-sm">SPYVPN</p>
-        <Button size={"sm"}>Purchase now</Button>
+      <div className="flex justify-between flex-wrap mt-36 p-5 md:p-0 items-center">
+        <p className="text-muted-foreground text-sm"> &copy;2024 Krishna</p>
+        <p className="text-muted-foreground hidden lg:block text-sm">SPYVPN</p>
+        <Button size={"sm"} variant={"outline"}>
+          Purchase now
+        </Button>
       </div>
       <hr className="mt-5 mb-5" />
-      <div className="flex justify-between py-5">
-        <div className="flex gap-x-5">
+      <div className="flex justify-between items-center flex-wrap py-5">
+        <div className="flex gap-x-5 p-5 md:p-0">
           <Link className="text-muted-foreground" href={"/"}>
             Home
           </Link>
@@ -51,7 +50,7 @@ const Footer = () => {
             Contact
           </Link>
         </div>
-        <div className="flex gap-x-5">
+        <div className="flex gap-x-5 p-5 md:p-0">
           <div className="text-muted-foreground">
             <TwitterLogoIcon className="w-4 h-4" />
           </div>
